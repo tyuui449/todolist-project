@@ -4,9 +4,6 @@ import {useState} from 'react'
 function App() {
   const [todolist,setTodolist] = useState([])
   const [content,setContent] = useState('')
-  const handleDel = (id) =>{
-
-  }
   console.log(content)
   return (
     <div className="App">
